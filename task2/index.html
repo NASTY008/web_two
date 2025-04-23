@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Задание 2</h1>
+    <ul>
+        <li>
+            <p>
+                Задание: получить главную страницу методом GET в протоколе HTTP 1.0
+            </p>
+            <p>
+                Request: <code>GET / HTTP/1.0</code>
+            </p>
+            <div>
+                <img src="web_photo21.PNG" alt="1">
+            </div>
+        </li>
+        <li>
+            <p>
+                Задание: получить внутреннюю страницу методом GET в протоколе HTTP 1.1
+            </p>
+            <p>
+                Request: <code>GET /web2/task2/ HTTP/1.1
+                    Host: u67426.kubsu-dev.ru</code>
+            </p>
+            <div>
+                <img src="web_photo22.PNG" alt="2">
+            </div>
+        </li>
+        <li>
+            <p>
+                Задание: определить размер файла file.tar.gz, не скачивая его
+            </p>
+            <p>
+                Request: <code>HEAD /web2/task2/file.tar.gz HTTP/1.1
+                    Host: u67426.kubsu-dev.ru</code>
+            </p>
+            <div>
+                <img src="web_photo23.PNG" alt="3">
+            </div>
+        </li>
+        <li>
+            <p>
+                Задание: определить медиатип ресурса /image.png
+            </p>
+            <p>
+                Request: <code>HEAD /web2/task2/image.png HTTP/1.1
+                    Host: u67426.kubsu-dev.ru</code>
+            </p>
+            <div>
+                <img src="web_photo24.PNG" alt="4">
+            </div>
+        </li>
+        <li>
+            <p>
+                Задание: отправить комментарий на сервер по адресу /index.php
+            </p>
+            <p>
+                Request: <code>POST / HTTP/1.1
+                    Host: u67426.kubsu-dev.ru
+                    Content-Type: text/plain
+                    Content-Length: 20
+                    
+                    comment=Hello World!</code>
+            </p>
+            <div>
+                <img src="web_photo25.PNG" alt="5">
+            </div>
+        </li>
+        <li>
+            <p>
+                Задание: получить первые 100 байт файла /file.tar.gz
+            </p>
+            <p>
+                Request: <code>GET /web2/task2/file.tar.gz HTTP/1.1
+                    Host: u67426.kubsu-dev.ru
+                    Range: bytes=0-99</code>
+            </p>
+            <div>
+                <img src="web_photo26.PNG" alt="6">
+            </div>
+        </li>
+        <li>
+            <p>
+                Задание: определить кодировку ресурса /index.php
+            </p>
+            <p>
+                Request: <code>HEAD / HTTP/1.1
+                    Host: u67426.kubsu-dev.ru</code>
+            </p>
+            <div>
+                <img src="web_photo27.PNG" alt="7">
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
