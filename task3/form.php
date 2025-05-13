@@ -11,7 +11,7 @@
         <h2>Форма</h2>
         <label>
             ФИО:<br>
-            <input name="field-name-1" placeholder="Иван Титов Денисович" type="name">
+            <input name="field-name-1" placeholder="Соколова Анастасия Эдуардовна" type="name">
         </label><br>
 
         <label>
