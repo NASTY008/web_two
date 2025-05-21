@@ -21,7 +21,7 @@
         <h2>Форма</h2>
         <label>
             ФИО:<br>
-            <input name="field-name-1" placeholder="Титов Иван Денисович" type="name" <?php if ($errors['field-name-1']) {
+            <input name="field-name-1" placeholder="Соколова Анастасия Эдуардовна" type="name" <?php if ($errors['field-name-1']) {
                 print 'class="error"';
             } ?> value="<?php print $values['field-name-1']; ?>">
         </label><br>
